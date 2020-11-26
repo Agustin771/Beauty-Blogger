@@ -1,0 +1,26 @@
+@import "quienSoy"; 
+@import "blog" ;
+@import "home" ;
+@import "servicio";
+@import "contacto";
+
+body{
+    background-color: rgb(169, 231, 184);
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav-link{
+    font-size: 20px;
+}
+.navbar{
+    box-shadow:3px 3px rgb(121, 120, 120);
+}
+footer{
+    margin-top: 8vw;
+}
+.bg-gradient-barra{
+    background-color: rgb(246, 246, 245);
+}
+

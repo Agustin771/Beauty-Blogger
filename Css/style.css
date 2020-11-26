@@ -1,0 +1,305 @@
+.container__sobreMi {
+  margin-top: 10vw;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: 'Raleway';
+  padding: 30px; }
+
+.container__sobreMi--info {
+  background-color: #f6f5f4;
+  padding: 10px; }
+
+.imagenyoXs {
+  height: 60vw;
+  width: 80vw;
+  margin-left: 5vw; }
+
+.blog {
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw; }
+
+.blog_blogExtra {
+  margin-top: 30vw;
+  margin-bottom: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 5vw; }
+
+.imagen1 {
+  margin-left: 12vw;
+  height: 30vw;
+  width: 45vw;
+  border: solid #5f5e5e 1px; }
+
+.pagination {
+  margin: -8vw; }
+
+.carrusel {
+  padding-top: 140px; }
+
+.btn-modal {
+  color: #909090;
+  background-color: #f1f1f1;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 2vw;
+  margin-top: 1vw;
+  margin-left: 2vw; }
+
+.btn-modal2:hover {
+  background-color: #557dd4; }
+
+.btn-modal:hover {
+  background-color: #557dd4; }
+
+.btn-modal1 {
+  color: #909090;
+  background-color: #f1f1f1;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 2vw;
+  margin-top: 1vw;
+  margin-left: 2vw; }
+
+.btn-modal2 {
+  color: #909090;
+  background-color: #f1f1f1;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 2vw;
+  margin-top: 1vw;
+  margin-left: 2vw; }
+
+.btn-modal1:hover {
+  background-color: #557dd4; }
+
+.protectoresSolares {
+  margin-top: 8vw; }
+
+.pielGrasa {
+  margin-top: 8vw; }
+
+.pielSeca {
+  margin-top: 8vw; }
+
+.pielG {
+  background-color: white;
+  width: 37vw;
+  margin-left: 22vw;
+  margin-top: -5vw; }
+
+.pielS {
+  background-color: white;
+  width: 36vw;
+  margin-left: 22vw;
+  margin-top: -5vw; }
+
+.sA {
+  background-color: white;
+  width: 36vw;
+  margin-left: 22vw;
+  margin-top: -5vw; }
+
+.protector {
+  background-color: white;
+  width: 29vw;
+  margin-left: 25vw;
+  margin-top: 0vw; }
+
+.serums {
+  margin-top: 8vw; }
+
+.protectores {
+  margin-top: 1vw; }
+
+.botonComprar {
+  margin-top: 0.5vw;
+  margin-left: 9.2vw; }
+
+.protectoresXs {
+  margin-top: 15vw; }
+
+.protectorXs {
+  margin-top: 30vw;
+  background-color: white;
+  width: 80vw; }
+
+.pielGXs {
+  margin-top: 12vw;
+  background-color: white;
+  width: 80vw; }
+
+.pielSxs {
+  margin-top: 12vw;
+  background-color: white;
+  width: 80vw; }
+
+.serumsXs {
+  margin-top: 12vw;
+  background-color: white;
+  width: 80vw; }
+
+.imagenesP {
+  height: 80vw;
+  width: 80vw;
+  margin-left: 0vw; }
+
+.imagenesXs {
+  height: 80vw;
+  width: 80vw;
+  margin-left: 5vw; }
+
+.botonComprarXsP {
+  margin-top: 0.5vw;
+  margin-left: 27vw; }
+
+.botonComprarXs {
+  margin-top: 0.5vw;
+  margin-left: 32vw; }
+
+.labelContacto {
+  padding-top: 1vw; }
+
+.contacto {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 10vw;
+  margin-left: 35vw;
+  border: 0px; }
+
+.form-control {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 1vw;
+  margin-left: 0vw;
+  border: solid black; }
+
+.contacto1 {
+  margin-top: 25vw;
+  font-size: 35px; }
+
+.barraCarga {
+  animation-name: loading;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+  bottom: 42px;
+  left: 10px; }
+
+.barraCarga1 {
+  animation-name: loading;
+  font-size: 30px;
+  font-weight: 400;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+  bottom: 40px;
+  left: 100px; }
+
+@keyframes loading {
+  0% {
+    background-color: red;
+    width: 0px;
+    height: 40px; }
+  5% {
+    background-color: #ebebeb;
+    width: 10px;
+    height: 40px; }
+  10% {
+    background-color: #8cda4d;
+    width: 15px;
+    height: 40px; }
+  15% {
+    background-color: #af5cdf;
+    width: 20px;
+    height: 40px; }
+  20% {
+    background-color: #41db26;
+    width: 25px;
+    height: 40px; }
+  25% {
+    background-color: #fb6501;
+    width: 30px;
+    height: 40px; }
+  30% {
+    background-color: #c90df8;
+    width: 35px;
+    height: 40px; }
+  35% {
+    background-color: #0fe5ec;
+    width: 40px;
+    height: 40px; }
+  40% {
+    background-color: #008a29;
+    width: 45px;
+    height: 40px; }
+  45% {
+    background-color: #691f1f;
+    width: 50px;
+    height: 40px; }
+  50% {
+    background-color: #ee3737;
+    width: 55px;
+    height: 40px; }
+  55% {
+    background-color: #e9d737;
+    width: 60px;
+    height: 40px; }
+  60% {
+    background-color: #c83939;
+    width: 65px;
+    height: 40px; }
+  65% {
+    background-color: #2531d6;
+    width: 70px;
+    height: 40px; }
+  70% {
+    background-color: #34db3c;
+    width: 75px;
+    height: 40px; }
+  75% {
+    background-color: #eb3d71;
+    width: 80px;
+    height: 40px; }
+  80% {
+    background-color: #e63131;
+    width: 85px;
+    height: 40px; }
+  85% {
+    background-color: #32bb99;
+    width: 90px;
+    height: 40px; }
+  90% {
+    background-color: #c52c2c;
+    width: 95px;
+    height: 40px; }
+  95% {
+    background-color: #d1257b;
+    width: 100px;
+    height: 40px; }
+  100% {
+    background-color: #4ad115;
+    width: 105px;
+    height: 40px; } }
+
+body {
+  background-color: #a9e7b8; }
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 600; }
+
+.nav-link {
+  font-size: 20px; }
+
+.navbar {
+  box-shadow: 3px 3px #797878; }
+
+footer {
+  margin-top: 8vw; }
+
+.bg-gradient-barra {
+  background-color: #f6f6f5; }

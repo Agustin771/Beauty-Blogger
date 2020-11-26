@@ -1,0 +1,81 @@
+@mixin recomendaciones {
+    margin-top: 8vw;
+}
+@mixin sectoresRecomendaciones($fondo, $margin, $espacios) {
+    background-color: white;
+    width: $fondo;
+    margin-left: $margin;
+    margin-top: $espacios;
+}
+
+@mixin recomendacionesXs($margin) {
+    margin-top: $margin;
+    background-color: white;
+    width: 80vw;
+}
+@mixin imagenesXs($margin) {
+    height: 80vw ;
+    width: 80vw ;
+    margin-left:$margin;
+}
+.protectoresSolares{
+    @include recomendaciones
+}
+.pielGrasa{
+    @include recomendaciones
+}
+.pielSeca{
+    @include recomendaciones
+}
+.pielG{
+    @include sectoresRecomendaciones(37vw,22vw,-5vw) 
+}
+.pielS{
+    @include sectoresRecomendaciones(36vw,22vw,-5vw) 
+}
+.sA{
+    @include sectoresRecomendaciones(36vw,22vw,-5vw)
+}
+.protector{
+    @include sectoresRecomendaciones(29vw,25vw,0vw) 
+}
+.serums{
+    @include recomendaciones 
+}
+.protectores{
+    margin-top: 1vw;
+}
+.botonComprar{
+    margin-top: 0.5vw;
+    margin-left: 9.2vw;
+}
+.protectoresXs{
+    margin-top: 15vw ;
+}
+
+.protectorXs{
+   @include recomendacionesXs(30vw)
+}
+.pielGXs{
+    @include recomendacionesXs(12vw)
+}
+.pielSxs{
+    @include recomendacionesXs(12vw)
+}
+.serumsXs{
+    @include recomendacionesXs(12vw)
+}
+.imagenesP{
+   @include imagenesXs(0vw)
+}
+.imagenesXs{
+   @include imagenesXs(5vw)
+}
+.botonComprarXsP{
+    margin-top: 0.5vw;
+    margin-left: 27vw;
+}
+.botonComprarXs{
+    margin-top: 0.5vw;
+    margin-left: 32vw;
+}
