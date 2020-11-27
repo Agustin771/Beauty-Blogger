@@ -1,41 +1,48 @@
 .carrusel{
     padding-top: 140px;
 }
+@mixin btn-modal($margin-left,$font,$marginTop) {
+    color: rgb(144, 144, 144);
+    background-color: rgb(241, 241, 241);
+    font-family:monospace;
+    font-weight: 700;
+    font-size: $font;
+    margin-top: $marginTop;
+    margin-left:$margin-left ;
+}
+
+@mixin modal-hover {
+    background-color: rgb(85, 125, 212);
+}
 
 .btn-modal{
-    color: rgb(144, 144, 144);
-    background-color: rgb(241, 241, 241);
-    font-family:monospace;
-    font-weight: 700;
-    font-size: 2vw;
-    margin-top: 1vw;
-    margin-left:2vw ;
+   @include btn-modal(0vw,2vw,1vw)
 }
 .btn-modal2:hover{
-    background-color:  rgb(85, 125, 212);
+    @include modal-hover
 }
 .btn-modal:hover{
-    background-color:  rgb(85, 125, 212);
+    @include modal-hover
 }
 .btn-modal1{
-    color: rgb(144, 144, 144);
-    background-color: rgb(241, 241, 241);
-    font-family:monospace;
-    font-weight: 700;
-    font-size: 2vw;
-    margin-top: 1vw;
-    margin-left:2vw ;
+    @include btn-modal(0vw,2vw,1vw)
 }
 .btn-modal2{
-    color: rgb(144, 144, 144);
-    background-color: rgb(241, 241, 241);
-    font-family:monospace;
-    font-weight: 700;
-    font-size: 2vw;
-    margin-top: 1vw;
-    margin-left:2vw ;
+    @include btn-modal(6vw,2vw,1vw);
 }
 
 .btn-modal1:hover{
-    background-color: rgb(85, 125, 212);
+    @include modal-hover
+}
+
+.btn-modalXs{
+    @include btn-modal(8vw,3vw,1vw)
+}
+
+.btn-modal1Xs{
+    @include btn-modal(28vw,3vw,1vw)
+}
+
+.btn-modal2Xs{
+    @include btn-modal(30vw,3vw,3vw)
 }

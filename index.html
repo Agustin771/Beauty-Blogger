@@ -24,9 +24,6 @@
               <a class="nav-link " href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="html/Sección Quien Soy.html">¿Quien Soy?</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="html/sección Blog.html">Blog</a>
             </li>
             <li class="nav-item">
@@ -39,6 +36,7 @@
         </div>
     </nav>
   </header>
+
   <section class="carrusel">
     <nav class="container imagenes">
       <nav class="row">
@@ -71,7 +69,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 d-none d-md-block d-lg-block">
         <div class="modal fade" id="quiensoyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -94,7 +92,30 @@
         </div>
         <button type="button" class="btn btn-modal" data-toggle="modal" data-target="#quiensoyModal">Sobre Mí</button>
       </div>
-      <div class="col-md-4">
+      <div class="col-xs-6 d-md-none d-lg-none">
+        <div class="modal fade" id="quiensoymodalXs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">¿Quien Soy?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Mi nombre es Laura, soy traductora devenida en cosmetóloga :)
+                Arrancó como un hobby, dando consejos sobre cómo tratar algunas afecciones de la piel, en base a mi experiencia y consejos de mi dermatóloga, pero terminé estudiando la carrera para poder ejercer de manera profesional y con sustento académico.
+                Como beauty blogger, sólo puedo hablarles de mis experiencias (que son 100% mías y no son pagas). Ante cualquier duda antes de comenzar a usar algún producto, por favor consulten con un especialista de la piel.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-modalXs" data-toggle="modal" data-target="#quiensoymodalXs">Sobre Mí</button>
+      </div>
+      <div class="col-md-4 d-none d-md-block d-lg-block">
         <div class="modal fade" id="misredesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -120,8 +141,8 @@
         </div>
         <button type="button" class="btn btn-modal1" data-toggle="modal" data-target="#misredesModal">Mis redes sociales</button>
       </div>
-      <div class="col-md-4">
-        <div class="modal fade" id="misredesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="col-xs-6 d-md-none d-lg-none">
+        <div class="modal fade" id="misredesmodalXs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -144,11 +165,61 @@
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-modal2" data-toggle="modal" data-target="#misredesModal">Mis redes sociales</button>
+        <button type="button" class="btn btn-modal1Xs" data-toggle="modal" data-target="#misredesmodalXs">Mis redes sociales</button>
+      </div>
+      <div class="col-md-4 d-none d-md-block d-lg-block">
+        <div class="modal fade" id="testBiotipo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Promos vigentes del mes</strong></h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+               <h2>2x1 en Limpieza profunda</h2> <button class="btn btn-primary" type="button">¡Quiero!</button>
+               <h2>Gel de limpieza + locion de tratamiento</h2> <button class="btn btn-primary">¡Quiero!</button>
+               <h2>Protectores solares al 40%</h2> <button class="btn btn-primary">¡Quiero!</button>
+               <h2>Pack antiedad: Retinol + Vitamina C</h2> <button class="btn btn-primary">¡Quiero!</button>
+              </div>
+              <div class="modal-footer">
+                <p>Las promos van a estar disponibles dentro de poco*</p>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-modal2" data-toggle="modal" data-target="#testBiotipo">¡Promos del mes!</button>
+      </div>
+      <div class="col-xs-12 d-md-none d-lg-none">
+        <div class="modal fade" id="testbiotipoXs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><strong>Promos vigentes del mes</strong>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+               <h2>2x1 en Limpieza profunda</h2> <button class="btn btn-primary" type="button">¡Quiero!</button>
+               <h2>Gel de limpieza + locion de tratamiento</h2> <button class="btn btn-primary">¡Quiero!</button>
+               <h2>Protectores solares al 40%</h2> <button class="btn btn-primary">¡Quiero!</button>
+               <h2>Pack antiedad: Retinol + Vitamina C</h2> <button class="btn btn-primary">¡Quiero!</button>
+              </div>
+              <div class="modal-footer">
+                <p>Las promos van a estar disponibles dentro de poco*</p>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-modal2Xs" data-toggle="modal" data-target="#testbiotipoXs">¡Promos del mes!</button>
       </div>
     </div>
   </div>
-  
+
   <footer class="page-footer font-small special-color-dark pt-4">
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
       <a href="https://www.instagram.com/agustin.carlopio/" target="_blank"> Agustín Pérez #SoyCoder</a>
