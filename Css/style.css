@@ -87,6 +87,41 @@
   margin-top: 3vw;
   margin-left: 30vw; }
 
+.tiendasConfiables {
+  margin-top: 5vw;
+  padding-left: 25vw;
+  font-size: 4vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: white; }
+
+.tienda2 {
+  padding-top: 5vw; }
+
+.tienda3 {
+  padding-top: 6.5vw;
+  padding-left: 5vw; }
+
+.tiendasconfiablesXs {
+  margin-top: 5vw;
+  padding-left: 0.5vw;
+  font-size: 8vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: white; }
+
+.tienda2Xs {
+  padding-bottom: 8vw;
+  height: 153px;
+  width: 300px; }
+
+.tienda3Xs {
+  padding-left: 2vw;
+  height: 140px;
+  width: 300px; }
+
+.tienda1Xs {
+  height: 240px;
+  width: 300px; }
+
 .protectoresSolares {
   margin-top: 8vw; }
 
@@ -98,26 +133,26 @@
 
 .pielG {
   background-color: white;
-  width: 37vw;
-  margin-left: 22vw;
+  width: 80vw;
+  margin-left: 0vw;
   margin-top: -5vw; }
 
 .pielS {
   background-color: white;
-  width: 36vw;
-  margin-left: 22vw;
+  width: 80vw;
+  margin-left: 0vw;
   margin-top: -5vw; }
 
 .sA {
   background-color: white;
-  width: 36vw;
-  margin-left: 22vw;
+  width: 80vw;
+  margin-left: 0vw;
   margin-top: -5vw; }
 
 .protector {
   background-color: white;
-  width: 29vw;
-  margin-left: 25vw;
+  width: 80vw;
+  margin-left: 0vw;
   margin-top: 0vw; }
 
 .serums {
@@ -308,9 +343,6 @@ body {
 
 .navbar {
   box-shadow: 3px 3px #797878; }
-
-footer {
-  margin-top: 8vw; }
 
 .bg-gradient-barra {
   background-color: #f6f6f5; }
