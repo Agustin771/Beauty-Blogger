@@ -21,6 +21,9 @@
 .pagination {
   margin: -8vw; }
 
+.footerblog {
+  margin-top: 100px; }
+
 .carrusel {
   padding-top: 140px; }
 
@@ -29,7 +32,7 @@
   background-color: #f1f1f1;
   font-family: monospace;
   font-weight: 700;
-  font-size: 2vw;
+  font-size: 1.8vw;
   margin-top: 1vw;
   margin-left: 0vw; }
 
@@ -44,7 +47,7 @@
   background-color: #f1f1f1;
   font-family: monospace;
   font-weight: 700;
-  font-size: 2vw;
+  font-size: 1.8vw;
   margin-top: 1vw;
   margin-left: 0vw; }
 
@@ -53,9 +56,9 @@
   background-color: #f1f1f1;
   font-family: monospace;
   font-weight: 700;
-  font-size: 2vw;
+  font-size: 1.8vw;
   margin-top: 1vw;
-  margin-left: 6vw; }
+  margin-left: 7.7vw; }
 
 .btn-modal1:hover {
   background-color: #557dd4; }
@@ -104,22 +107,22 @@
 .tiendasconfiablesXs {
   margin-top: 5vw;
   padding-left: 0.5vw;
-  font-size: 8vw;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
   background-color: white; }
 
 .tienda2Xs {
   padding-bottom: 8vw;
-  height: 153px;
+  height: 160px;
   width: 300px; }
 
 .tienda3Xs {
   padding-left: 2vw;
-  height: 140px;
+  height: 100px;
   width: 300px; }
 
 .tienda1Xs {
-  height: 240px;
+  height: 220px;
   width: 300px; }
 
 .protectoresSolares {
